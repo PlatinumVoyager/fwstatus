@@ -72,13 +72,6 @@ void HandleFwManipulationRequest(INetFwPolicy2 *pNetFwPolicy2, LPWSTR *sublistin
 
 int main(int argc, wchar_t *argv[])
 {
-    /*
-        perform POST operation PRE administrative checks for targeted current access token SID (ADMIN GROUP)
-        whilst also checking if the current program is being run with administrative capabilities
-    
-        perform the checks ONLY when executing high level order profiler manipulation operations (i.e -d, -e, etc.)
-    */
-
     if (argc < 2)
     {
         ReturnHelpStatus();
