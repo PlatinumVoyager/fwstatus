@@ -32,4 +32,4 @@ After completing the previous command to build to an executable, propagate the f
    - Disable the current targeted profiler, or actively disable ALL Windows Defender Firewall sublistings.
   
 1. `.\fwstatus.exe -e/--enable <DOMAIN, PUBLIC, PRIVATE, ALL/*>`
-   - Enable the current targeted profiler, or actively disable ALL Windows Defender Firewall sublistings.
+   - Enable the current targeted profiler, or actively enable ALL Windows Defender Firewall sublistings.
