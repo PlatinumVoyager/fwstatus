@@ -22,4 +22,5 @@ Once you have verified that the proper components/libraries are installed to you
 
 ## Usage:
 After completing the previous command to build to an executable, propagate the following commands to your list of actions needed to successfully run "fwstatus.exe":
-* `.\fwstatus.exe --help` - This will display ALL help information pertaining to manipulating the Windows Defender Firewall.
+1. `.\fwstatus.exe --help`
+  - This will display ALL help information pertaining to manipulating the Windows Defender Firewall.
