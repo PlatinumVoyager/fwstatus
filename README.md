@@ -17,7 +17,7 @@ This tool comes separately from an ongoing development suite of a "Windows Agent
 In order to use "fwstatus" you must have the included Windows development files installed to your local computer. These mandatory files are typically installed via Visual Studio.
 
 Once you have verified that the proper components/libraries are installed to your local C drive, by confirming that the "Windows.h" header file is indeed importable via `#include <Windows.h` proceed as follows:
-* `cl /EHsc /std:c11 fwstatus.c /o fwstatus.exe`
+* `cl /EHsc /std:c11 firewallstatus.c /o fwstatus.exe`
 
 
 ## Usage:
