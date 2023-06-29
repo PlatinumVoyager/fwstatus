@@ -23,4 +23,13 @@ Once you have verified that the proper components/libraries are installed to you
 ## Usage:
 After completing the previous command to build to an executable, propagate the following commands to your list of actions needed to successfully run "fwstatus.exe":
 1. `.\fwstatus.exe --help`
-  - This will display ALL help information pertaining to manipulating the Windows Defender Firewall.
+   - This will display ALL help information pertaining to manipulating the Windows Defender Firewall.
+
+1. `.\fwstatus.exe -s/--show <DOMAIN, PUBLIC, PRIVATE, ALL/*>`
+   - This will show the currently active profilers.
+
+1. `.\fwstatus.exe -d/--disable <DOMAIN, PUBLIC, PRIVATE, ALL/*>`
+   - Disable the current targeted profiler, or actively disable ALL Windows Defender Firewall sublistings.
+  
+1. `.\fwstatus.exe -e/--enable <DOMAIN, PUBLIC, PRIVATE, ALL/*>`
+   - Enable the current targeted profiler, or actively disable ALL Windows Defender Firewall sublistings.
