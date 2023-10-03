@@ -39,6 +39,6 @@ After completing the previous command to build to an executable, propagate the f
   
 ## Future Updates:
 The current roadmap for a list of targeted features to support includes but is not limited to the following:
-1. The ability to disable the Windows Defender Firewall notifications when a profiler is manipulated (enabled, disabled)
-    - This will include the option to disable one or ALL available sublistings.
+1. ~~The ability to disable the Windows Defender Firewall notifications when a profiler is manipulated (enabled, disabled)~~
+    ~~- This will include the option to disable one or ALL available sublistings.~~
   
