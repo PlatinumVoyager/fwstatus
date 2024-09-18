@@ -1,4 +1,9 @@
 # Fwstatus
+
+[![PlatinumVoyager - fwstatus](https://img.shields.io/static/v1?label=PlatinumVoyager&message=fwstatus&color=blue&logo=github)](https://github.com/PlatinumVoyager/fwstatus "Go to GitHub repo")
+[![stars - fwstatus](https://img.shields.io/github/stars/PlatinumVoyager/fwstatus?style=social)](https://github.com/PlatinumVoyager/fwstatus)
+[![forks - fwstatus](https://img.shields.io/github/forks/PlatinumVoyager/fwstatus?style=social)](https://github.com/PlatinumVoyager/fwstatus)
+
 Microsoft Defender Firewall Status Operations
 
 This tool is responsible for manipulating the Windows Defender Firewall sublistings. Sublistings are directed as follows: the 3 "subsets" that exist directly underneath "Firewall & network protection". Fwstatus is able to directly access the Windows
